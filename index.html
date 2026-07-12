@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="main-container">
+        <h2>To-Do</h2>
+        <div class="input-div">
+             <input type="text" class="intput-field" placeholder="Add a new Todo">
+             <button class="btn add-btn">Add</button>
+        </div>
+        <ul class="scroll">
+            <li id="todolist"></li>
+        </ul>
+        <div>
+            <hr class="counter">
+            <div class="counter-container">
+                <p>
+                    <span> 0 </span>
+                   items total
+                </p>
+            </div>
+            <button class="btn delete-btn">Delete All</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="made-by">Made by</p>
+        <p class="authour">Nikil Kovrdhan</p>
+    </footer>
 </body>
 </html>
