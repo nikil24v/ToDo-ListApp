@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <section class="main-container">
         <h2>To-Do</h2>
         <div class="input-div">
-             <input type="text" class="input-field" placeholder="Add a new Todo">
+             <input type="text" class="input-field" id="todoInput" placeholder="Add a new Todo">
              <button class="btn add-btn">Add</button>
         </div>
         <ul class="scroll">
@@ -20,7 +21,7 @@
             <hr class="counter">
             <div class="counter-container">
                 <p>
-                    <span> 0 </span>
+                    <span id="todocount"> 0 </span>
                    items total
                 </p>
                 <button class="btn delete-btn">Delete All</button>
